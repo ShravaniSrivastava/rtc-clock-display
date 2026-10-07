@@ -39,6 +39,11 @@ working directly against AVR datasheet register definitions.
 
 Compile with `avr-gcc` for your target MCU and flash with `avrdude`, e.g.:
 
+<img width="975" height="763" alt="image" src="https://github.com/user-attachments/assets/c4954fb1-08b4-462c-b0ff-6cb61f3a9473" />
+
+<img width="975" height="471" alt="image" src="https://github.com/user-attachments/assets/a59d89fa-5462-457e-8b5f-f45513f384b4" />
+
+
 ```
 avr-gcc -mmcu=atmega328p -DF_CPU=1000000UL -Os -o rtc_clock.elf rtc_clock.c
 avr-objcopy -O ihex rtc_clock.elf rtc_clock.hex
