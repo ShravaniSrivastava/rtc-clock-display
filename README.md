@@ -50,14 +50,16 @@ My contribution:
 
 - Check `TWSR` after each TWI operation and add timeouts and error handling.
 - Convert BCD to decimal for display and for setting the time.
-
-<img width="975" height="763" alt="image" src="https://github.com/user-attachments/assets/c4954fb1-08b4-462c-b0ff-6cb61f3a9473" />
-
-<img width="975" height="471" alt="image" src="https://github.com/user-attachments/assets/a59d89fa-5462-457e-8b5f-f45513f384b4" />
-
 - Add buttons to set the time and date.
 - Replace blocking delays with a timer-based approach.
 
 ## Tools
 
 Atmel Studio (AVR GCC), Proteus.
+
+## Simulations
+
+<img width="975" height="763" alt="image" src="https://github.com/user-attachments/assets/c4954fb1-08b4-462c-b0ff-6cb61f3a9473" />
+
+<img width="975" height="471" alt="image" src="https://github.com/user-attachments/assets/a59d89fa-5462-457e-8b5f-f45513f384b4" />
+
